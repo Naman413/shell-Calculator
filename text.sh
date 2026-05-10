@@ -16,6 +16,11 @@ function calci(){
 	if [[ $num3 == 1 ]]
 	then
 		echo "sum is  $((num1 + num2))"
+	
+	elif [[ $num3 == 2 ]]
+	then
+		echo "sub is $((num1 - num2))"
+		
 	fi
 
 
